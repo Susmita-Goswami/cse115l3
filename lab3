@@ -1,0 +1,26 @@
+//Write a program to take input of ID and marks obtained by a student in 5 subjects each have its 100 full
+//marks and display the ID with percentage score secured. */
+#include<stdio.h>
+int main (void)
+{
+    int id, mark1,mark2,mark3,mark4,mark5,mark_sum;
+    double score;
+    printf("enter the students id=%d");
+    scanf("%d",&id);
+    printf("enter mark1 %d",mark1);
+    scanf("%d",&mark1);
+    printf("enter mark2 %d",mark2);
+    scanf("%d",&mark2);
+    printf("enter mark3 %d",mark3);
+    scanf("%d",&mark3);
+    printf("enter mark4 %d",mark4);
+    scanf("%d",&mark4);
+    printf("enter mark5 %d",mark5);
+    scanf("%d",&mark5);
+    mark_sum=mark1+mark2+mark3+mark4+mark5;
+    score=(mark_sum/500)*100;
+    printf("enter the score %f",score);
+    return 0;
+
+
+}
